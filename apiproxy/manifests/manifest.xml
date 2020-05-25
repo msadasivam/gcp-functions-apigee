@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest name="manifest">
+    <Policies>
+        <VersionInfo resourceName="AssignBQAccessToken" version="SHA-512:b6da27824f775cf9faa5891b0589b2d5e5ffc76aa02e42b1cedae4e05849b80c15266dfe9d669c37453dddbc92f700503ce337fc255aa4663ff611e7d14b4cf8"/>
+        <VersionInfo resourceName="ExtractBQAccessToken" version="SHA-512:75448d5307f32ae13616b1d47c72b4b8e41d448e1a49fe8d8acffbaee59cb1f386c9eb18af1e81ce40a93aff9caf7b034fca9a62c0eca21a78fe067e2b9387b7"/>
+        <VersionInfo resourceName="FetchGCPAccessToken" version="SHA-512:2bc10b0555d1bf2d17bd9bdde4cb55b5feaf82909a997395a82f37047fd4c02bfa0a273fcdce215792545143e0a47ec301cbf902c45515c46b2bcef0247b5411"/>
+        <VersionInfo resourceName="LookupTokenCache" version="SHA-512:05be908ff29502ed4d257dc6a2f3523683f50f5fd18afee0168130bf086cb3d3badfcb457d96261c257f4a4bcd93889874538ae5dc8a23e5d989a83a8589e142"/>
+        <VersionInfo resourceName="PopulateTokenCache" version="SHA-512:3a1c1a0f7a0edb933d4285a9c51d5897a383927b0b105d21f7a6e7140aae5c00bd8d6990ae96567e795fc32320164c0289883ebd7728782416a018d3651c81b1"/>
+        <VersionInfo resourceName="SpikeArrest" version="SHA-512:36e958ad99d9fa93b1073c6c5656c30084e5bc0fafdc9a2da7d8e21af7d5579e1a8fde3c8a7143bf007772575cf68d39f04d2073a9987ee519f9b65b69a0ffff"/>
+        <VersionInfo resourceName="VerifyAPIKey" version="SHA-512:ea5c8f110ac8db5f011f0e82a6eb8e07f5297a6f64d098ad02c39992b352615e0de28eed7f9afb96447da23521a2987399f3a53b87c6c0ff58af02b017d361ca"/>
+    </Policies>
+    <ProxyEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:453c3b05f884caf24421a6e623fcebe7a270573d17b00d3dffd61153ef57533430d4a769cadade4ea82063d9ac8fc201ca3a9b8b09a79105ac6fe48cf2f15e20"/>
+    </ProxyEndpoints>
+    <Resources/>
+    <SharedFlows/>
+    <TargetEndpoints>
+        <VersionInfo resourceName="default" version="SHA-512:9e97a646f7bfd81fedca398665a394b72a930e35466fdde817654c6c9262be04e0fee1a86a30674a05901c5e34c2ec809ca71b6a23d1c67d772fb2f142b91778"/>
+    </TargetEndpoints>
+</Manifest>

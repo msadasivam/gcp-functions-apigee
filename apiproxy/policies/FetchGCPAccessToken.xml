@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ConnectorCallout async="false" continueOnError="true" enabled="true" name="FetchGCPAccessToken">
+    <DisplayName>FetchGCPAccessToken</DisplayName>
+    <Connector>GAuth</Connector>
+    <Action>getJWTAccessToken</Action>
+    <Input><![CDATA[{
+      "audience" : "https://<region>-<project>.cloudfunctions.net/<function>"
+    }]]></Input>
+    <Output parsed="false">gcp.token.response</Output>
+</ConnectorCallout>
